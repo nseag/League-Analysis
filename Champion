@@ -1,0 +1,83 @@
+public class Champion
+{
+//attributes
+private String name;
+private double health;
+private double scalingHealth;
+private double attackDamage;
+private double scalingAttackDamage;
+private double attackSpeed;
+private double scalingAttackSpeed;
+private int movementSpeed;
+private double healthRegen;
+private double scalingHealthRegen;
+private double armor;
+private double scalingArmor;
+private double magicResist;
+private double scalingMagicResist;
+private Passive passive;
+private Q q;
+private W w;
+private E e;
+private R r;
+//constructor
+public Champion(String aName, double aHealth, double aScalingHealth, double anAttackDamage, 
+double aScalingAttackDamage, double anAttackSpeed, double aScalingAttackSpeed, int aMovementSpeed,
+double aHealthRegen, double aScalingHealthRegen, double anArmor, double aScalingArmor, double aMagicResist,
+double aScalingMagicResist)
+{
+setName(aName);
+setHealth(aHealth);
+setScalingHealth(aScalingHealth);
+setAttackDamage(anAttackDamage);
+setScalingAttackDamage(aScalingAttackDamage);
+setAttackSpeed(anAttackSpeed);
+setScalingAttackSpeed(aScalingAttackSpeed);
+setMovementSpeed(aMovementSpeed);
+setHealthRegen(aHealthRegen);
+setScalingHealthRegen(aScalingHealthRegen);
+setArmor(anArmor);
+setScalingArmor(aScalingArmor);
+setMagicResist(aMagicResist);
+setScalingMagicResist(aScalingMagicResist);
+setQ(null);
+setW(null);
+setE(null);
+setR(null);
+setPassive(null);
+}
+//set accessor methods
+public void setName(String aName)
+{name=aName;}
+public void setHealth(aHealth)
+{heath=aHealth;}
+public void setScalingHealth(aScalingHealth)
+{scalingHealth=aScalingHealth;}
+public void setAttackDamage(anAttackDamage)
+{attackDamage=anAttackDamage;}
+public void setScalingAttackDamage(aScalingAttackDamage)
+{scalingAttackDamage=aScalingAttackDamage;}
+public void setAttackSpeed(anAttackSpeed)
+{attackSpeed=anAttackSpeed;}
+public void setScalingAttackSpeed(aScalingAttackSpeed)
+{scalingAttackSpeed=aScalingAttackSpeed;}
+public void setMovementSpeed(aMovementSpeed)
+{movementspeed=aMovementSpeed;}
+public void setHealthRegen(aHealthRegen)
+{healthRegen=aHealthRegen;}
+public void setScalingHealthRegen(aScalingHealthRegen)
+{scalingHealthRegen=aScalingHealthRegen;}
+public void setArmor(anArmor)
+{armor=anArmor;}
+public void setScalingArmor(aScalingArmor)
+{scalingArmor=aScalingArmor;}
+public void setMagicResist(aMagicResist)
+{magicResist=aMagicResist;}
+public void setScalingMagicResist(aScalingMagicResist)
+{scalingMagicResist=aScalingMagicResist;}
+//public void setQ()
+//public void setW()
+//public void setE()
+//public void setR()
+//public void setPassive()
+}
